@@ -30,7 +30,7 @@ main {
   text-align: center;
   color: white;
   padding: 1rem;
-  width: min(90rem, 100%);
+  width: min(180rem, 100%);
   margin: 1rem auto;
   font-size: 1.5rem;
 }
@@ -65,7 +65,7 @@ h3 {
   padding: 1rem;
   border: 2px solid white;
   border-radius: 1rem;
-  width: 21rem;
+  width: 18rem;
 
   background-color: #374244;
 }

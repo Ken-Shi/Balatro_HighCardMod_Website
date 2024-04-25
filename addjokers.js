@@ -33,12 +33,14 @@ let jokers = [
   {
     name: "Neo New Nambu",
     text: [
-        "Gain {C:blue}+1{} Hand upon hand played, ",
-        "but you must play {C:attention}5 cards{}",
-        "{C:attention}per hand{}, {C:attention}lose all discards{}",
+        "Gain {C:blue}+1{} Hand upon hand",
+        "played, but you must play",
+        "{C:attention}5 cards per hand{}, ",
+        "{C:attention}lose all discards{}",
         "and set hand size to {C:attention}6{}.",
-        "When round ends, transform",
-        "back to {C:attention}X-Playing Joker{}."
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_neo_new_nambu.png",
     rarity: "Legendary"
@@ -49,10 +51,237 @@ let jokers = [
         "If you play {C:attention}5{} cards and",
         "score {C:attention}exactly 4{} cards,",
         "this card gives {X:mult,C:white}X4{} Mult. ",
-        "When round ends, transform",
-        "back to {C:attention}X-Playing Joker{}."
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_clear_lance.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Brain Buster",
+    text: [
+        "If your {C:attention}highest scoring{}",
+        "{C:attention}card{} is higher than ",
+        "before, accumulate {X:mult,C:white}X1{}",
+        "Mult until end of round. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_brain_buster.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Interceptor",
+    text: [
+        "Randomly {C:attention}enhance{} every ",
+        "scoring cards before",
+        "scoring, but {C:attention}remove all enhancements{} from ",
+        "scoring cards afterward.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_interceptor.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "All Kaboom",
+    text: [
+        "Destroy the {C:attention}first scoring{}",
+        "{C:attention}card{} and all other",
+        "scoring cards that are ",
+        "{C:attention}of the same suit{}. each ",
+        "destruction gives {C:mult}+5{} Mult. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_all_kaboom.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Bokka",
+    text: [
+        "Remove {C:attention}debuff{}",
+        "from played cards.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_bokka.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Honest Straight",
+    text: [
+        "Turn all scored cards",
+        "into a {C:attention}random{} scored card {C:attention}after{}",
+        "{C:attention}the scoring stage{}. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_honest_straight.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "San Galgano (WIP)",
+    text: [
+        "When you play and score",
+        "{C:attention}High Card{}, {C:attention}consume{} the",
+        "scoring card and disable",
+        "its transformation. Gain",
+        "{X:mult,C:white}X1{} per card consumed. ",
+        "{C:red}Warning: This card has a mind of its own!{}"
+    ],
+    image_url: "img/j_hcm_san_galgano.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Love & Peace",
+    text: [
+        "Give {C:chips}+110{} Chips and {C:mult}+11{}",
+        "Mult per card scored,",
+        "but {C:attention}force a card{} for each hand.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_love_and_peace.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Jelly Crawler",
+    text: [
+        "Cards can be considered",
+        "{C:attention}1 rank lower{} if that",
+        "helps forming a better poker hand. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_jelly_crawler.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Rockin' Rocks",
+    text: [
+        "Turning your first scoring card into {C:attention}Stone{}",
+        "{C:attention}Card{}. Retriggers played",
+        "{C:attention}Stone Card{} for {C:attention}2 times{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_rockin_rocks.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Agent S",
+    text: [
+        "Retrigger the lowest",
+        "played card used in",
+        "scoring for {C:attention}4 times{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_agent_s.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Calorie's High",
+    text: [
+        "Gain {C:red}+1{} Discard upon ",
+        "card(s) discarded, but ",
+        "you only play {C:attention}1 hand{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_calories_high.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "The Zoo",
+    text: [
+        "Transform your scoring",
+        "cards to the {C:attention}leftmost{}",
+        "scoring card if they are ",
+        "of the same {C:attention}rank{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_the_zoo.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Chameleon",
+    text: [
+        "Convert {C:attention}suit{} of your",
+        "played cards to suit of",
+        "{C:attention}a random played card{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_chameleon.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Sky Dancer",
+    text: [
+        "Scoring your {C:attention}most played{}",
+        "{C:attention}hand{} that's not High Card",
+        "will give a corresponding {C:planet}Planet{} card.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_sky_dancer.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Masculine Parfait",
+    text: [
+        "Destroy all scoring {C:attention}face cards{} and add {C:chips}+10{} chips",
+        "and {C:mult}+5{} mult per card to",
+        "{C:attention}both this joker and the playing card of this{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_masculine_parfait.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Faceless",
+    text: [
+        "If you play {C:attention}4{} or less ",
+        "cards, this will act like a",
+        "{C:attention}playing card{} that forms",
+        "a {C:attention}higher poker hand{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_faceless.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Love Connection",
+    text: [
+        "Your poker hand played",
+        "is always considered to",
+        "have contained a {C:attention}Pair{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_love_connection.png",
     rarity: "Legendary"
   },
 ]
