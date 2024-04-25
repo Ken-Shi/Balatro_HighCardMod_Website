@@ -1,21 +1,21 @@
 let decks = [
   {
-    name = "X-Playing Deck",
-    text = {
+    name: "X-Playing Deck",
+    text: [
         "Start run as a {C:red}Player{}",
         "(i.e. Start with ",
         "{C:attention}X-Playing{} Joker)"
-    },
+    ],
     image_url: "img/b_xplaying.png",
     rarity: "Deck"
   },
   {
-    name = "X-Playing Joker",
-    text = {
+    name: "X-Playing Joker",
+    text: [
         "{C:red}PLAY{} {C:attention}first hand{} of round.",
         "(Transform into the scoring",
         "X-Playing card or X-hand)"
-    }, 
+    ], 
     image_url: "img/j_hcm_xplay.png",
     rarity: "Legendary"
   },
@@ -31,13 +31,28 @@ let jokers = [
   //   rarity: "Common"
   // }
   {
-    name = "X-Playing Joker",
-    text = {
-        "{C:red}PLAY{} {C:attention}first hand{} of round.",
-        "(Transform into the scoring",
-        "X-Playing card or X-hand)"
-    }, 
-    image_url: "img/j_hcm_xplay.png",
+    name: "Neo New Nambu",
+    text: [
+        "Gain {C:blue}+1{} Hand upon hand played, ",
+        "but you must play {C:attention}5 cards{}",
+        "{C:attention}per hand{}, {C:attention}lose all discards{}",
+        "and set hand size to {C:attention}6{}.",
+        "When round ends, transform",
+        "back to {C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_neo_new_nambu.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Clear Lance",
+    text: [
+        "If you play {C:attention}5{} cards and",
+        "score {C:attention}exactly 4{} cards,",
+        "this card gives {X:mult,C:white}X4{} Mult. ",
+        "When round ends, transform",
+        "back to {C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_clear_lance.png",
     rarity: "Legendary"
   },
 ]
@@ -133,21 +148,32 @@ let blinds = [
 
 let shop_items = [
   {
-    name: "Joker",
+    name: "Low Light Cigarette Pack",
     text: [
-      "{C:mult}+4{} Mult"
+      "Choose {C:attention}1{} of up to",
+      "{C:attention}3{C:attention} X-Playing{} cards to",
+      "add to your deck"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
+    image_url: "img/p_xcards.png",
     rarity: "Pack"
   },
+
+  //{
+  //  name: "Joker",
+  //  text: [
+  //    "{C:mult}+4{} Mult"
+  //  ],
+  //  image_url: "img/j_joker.png",
+  //  rarity: "Voucher"
+  //},
+  //{
+  //  name: "Joker",
+  //  text: [
+  //    "{C:mult}+4{} Mult"
+  //  ],
+  //  image_url: "img/j_joker.png",
+  //  rarity: "Pack"
+  //},
 ]
 
 let cols = {
