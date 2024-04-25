@@ -284,6 +284,211 @@ let jokers = [
     image_url: "img/j_hcm_love_connection.png",
     rarity: "Legendary"
   },
+  {
+    name: "Marble Rumble",
+    text: [
+        "Turn your {C:attention}scoring hand{}",
+        "into {C:attention}Glass Card{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_marble_rumble.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "13 Stairs",
+    text: [
+        "If you have scored",
+        "{C:red}exactly 13{} cards ",
+        "this round, {C:attention}-1 Ante{}. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_13_stairs.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Never No Dollars",
+    text: [
+        "Spend up to {C:attention}20{} dollars,",
+        "add that amount to {C:mult}Mult{}",
+        "and {X:chips,C:white}X10{} that ",
+        "amount to {C:chips}Chips{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_never_no_dollars.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Red Labyrinth",
+    text: [
+        "Selling consumeables will not earn dollars, but will ",
+        "spend {C:attention}1 dollar{} and get ",
+        "a {C:attention}random consumeable{}",
+        "{C:attention} of the same type{} ",
+        "if you have dollars.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_red_labyrinth.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Unlucky Poky",
+    text: [
+        "All {C:green,E:1,S:1.1}probabilities{} become",
+        "{C:green,E:1,S:1.1}deterministic{} ",
+        "(always trigger)",
+        "during the scoring stage.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_unlucky_poky.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Out of Five",
+    text: [
+        "{C:attention}High Card{} poker hand will",
+        "score as your {C:attention}most{}",
+        "{C:attention}played hand{} that's not ",
+        "High Card.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_out_of_five.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Round & Round",
+    text: [
+        "If your scoring hand",
+        "contains {C:attention}5{} scoring cards, ",
+        "{C:purple}balance{} your {C:chips}chips{} and ",
+        "{C:mult}mult{} and {C:attention}destroy{}",
+        "all scoring cards.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_round_and_round.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Metallical Parade",
+    text: [
+        "{X:mult,C:white}X1.5{} per {C:attention}Steel Card{}",
+        "or {C:attention}Gold Card{} played", 
+        " when scored.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_metallical_parade.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Green Green",
+    text: [
+        "Your poker hand played",
+        "is always considered",
+        "{C:red}only{} as {C:attention}Straight{}.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_green_green.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "G Round",
+    text: [
+        "When {C:attention}Stone Cards{} are ",
+        "played, gain {C:mult}+5{} Mult each ",
+        "for this round and {C:attention}destroy{} them.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_g_round.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Lethal Scoville",
+    text: [
+        "If your scoring hand {C:attention}lit{}",
+        "{C:attention}the fire{}, gain a random",
+        "{C:spectral}Spectral{} card.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_lethal_scoville.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Sinking Shadow",
+    text: [
+        "Cards that are played ",
+        "but did not score ",
+        "add their {C:attention}base{} {C:chips}chips{}",
+        " to {C:mult}mult{} instead.",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_sinking_shadow.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Million Volt",
+    text: [
+        "{C:attention}Steel{} Card will also act",
+        "like {C:attention}Gold{} Card and ",
+        "{C:attention}vice versa{}. {C:red}(Only for {}",
+        "{C:attention}enhancement{} {C:red}effects){}",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_million_volt.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Coming Home",
+    text: [
+        "After playing hand or ",
+        "discard, you always draw ",
+        "cards that form your",
+        " {C:attention}most played hand{}. ",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_coming_home.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Reaper's Hand",
+    text: [
+        "After playing a hand, ",
+        "destroy all scoring cards ",
+        "and gain their {C:chips}chips{}, {C:mult}mult{}",
+        " and {C:attention}enhancement{}.",
+        "{C:inactive}({}{C:chips}chips{}, {C:mult}mult{}, {X:mult,C:white}Xmult{} and",
+        "{C:attention}gold at end of round{}{C:inactive}){}",
+        "This X-Playing card is {C:attention}eternal{}."
+    ],
+    image_url: "img/j_hcm_reapers_hand.png",
+    rarity: "Legendary"
+  },
 ]
 
 // works the same. 
