@@ -9,6 +9,16 @@ let decks = [
     image_url: "img/b_xplaying.png",
     rarity: "Deck"
   },
+  {
+    name = "X-Playing Joker",
+    text = {
+        "{C:red}PLAY{} {C:attention}first hand{} of round.",
+        "(Transform into the scoring",
+        "X-Playing card or X-hand)"
+    }, 
+    image_url: "img/j_hcm_xplay.png",
+    rarity: "Legendary"
+  },
 ]
 
 let jokers = [
