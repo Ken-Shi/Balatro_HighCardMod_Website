@@ -398,9 +398,12 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Greatest Man (WIP)",
+    name: "Greatest Man",
     text: [
-        "TBA!",
+        "If your {C:attention}scoring poker{} is ",
+        "higher than your round ",
+        "best, upgrade level of ",
+        "played {C:attention}poker hand{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
