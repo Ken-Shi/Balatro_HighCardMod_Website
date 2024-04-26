@@ -46,6 +46,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "3 of Spades (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_staff_master.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Clear Lance",
     text: [
         "If you play {C:attention}5{} cards and",
@@ -70,6 +81,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_brain_buster.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Juggling Gun (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_juggling_gun.png",
     rarity: "Legendary"
   },
   {
@@ -232,6 +254,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "Marvelous Genius (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_marvelous_genius.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Sky Dancer",
     text: [
         "Scoring your {C:attention}most played{}",
@@ -294,6 +327,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_marble_rumble.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Greatest Man (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_greatest_man.png",
     rarity: "Legendary"
   },
   {
@@ -382,6 +426,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "Dynamic Kinesis (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_dynamic_kinesis.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Metallical Parade",
     text: [
         "{X:mult,C:white}X1.5{} per {C:attention}Steel Card{}",
@@ -405,6 +460,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_green_green.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Wing Wind (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/j_hcm_wing_wind.png",
     rarity: "Legendary"
   },
   {
