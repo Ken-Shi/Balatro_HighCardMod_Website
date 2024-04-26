@@ -84,9 +84,11 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Juggling Gun (WIP)",
+    name: "Juggling Gun",
     text: [
-        "TBA!",
+        "Automatically plays your",
+        "{C:attention}lowest card held in hand{}",
+        "in addition to your selected cards for play.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
