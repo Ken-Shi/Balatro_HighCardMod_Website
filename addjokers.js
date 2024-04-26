@@ -78,7 +78,8 @@ let jokers = [
         "Mult until end of round. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Idea from{} {C:username}@FC{}"
     ],
     image_url: "img/j_hcm_brain_buster.png",
     rarity: "Legendary"
