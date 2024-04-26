@@ -149,6 +149,28 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "Jack of Spades (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Queen of Spades (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
     name: "San Galgano (WIP)",
     text: [
         "When you play and score",
@@ -254,6 +276,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "Mun Pheromone Mun (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Marvelous Genius (WIP)",
     text: [
         "TBA!",
@@ -262,6 +295,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_marvelous_genius.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "10 of Hearts (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
   {
@@ -275,6 +319,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_sky_dancer.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Sonic Move (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
   {
@@ -327,6 +382,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_marble_rumble.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "4 of Diamonds (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
   {
@@ -383,6 +449,15 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "No Mercy (WIP)",
+    text: [
+        "TBA!",
+        "This X-Playing card is {C:attention}eternal{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Unlucky Poky",
     text: [
         "All {C:green,E:1,S:1.1}probabilities{} become",
@@ -408,6 +483,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_out_of_five.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Balor (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
   {
@@ -487,6 +573,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "6 of Clubs (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Lethal Scoville",
     text: [
         "If your scoring hand {C:attention}lit{}",
@@ -511,6 +608,17 @@ let jokers = [
         "{C:attention}X-Playing Joker{}."
     ],
     image_url: "img/j_hcm_sinking_shadow.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "9 of Clubs (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
   {
@@ -542,6 +650,17 @@ let jokers = [
     rarity: "Legendary"
   },
   {
+    name: "Queen of Clubs (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
+    rarity: "Legendary"
+  },
+  {
     name: "Reaper's Hand",
     text: [
         "After playing a hand, ",
@@ -553,6 +672,17 @@ let jokers = [
         "This X-Playing card is {C:attention}eternal{}."
     ],
     image_url: "img/j_hcm_reapers_hand.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Ace of Clubs (WIP)",
+    text: [
+        "TBA!",
+        "When round ends, ",
+        "transform back to ",
+        "{C:attention}X-Playing Joker{}."
+    ],
+    image_url: "img/b_xplaying.png",
     rarity: "Legendary"
   },
 ]
