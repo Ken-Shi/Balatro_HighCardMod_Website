@@ -143,7 +143,8 @@ let jokers = [
         "{C:attention}the scoring stage{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Idea from{} {C:username}@MathIsFun_{}"
     ],
     image_url: "img/j_hcm_honest_straight.png",
     rarity: "Legendary"
@@ -281,7 +282,8 @@ let jokers = [
         "TBA!",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Idea from{} {C:username}@Coronacht_{}"
     ],
     image_url: "img/b_xplaying.png",
     rarity: "Legendary"
@@ -847,6 +849,8 @@ let cols = {
   SPECTRAL: "#4584fa",
   VOUCHER: "#fd682b",
   EDITION: "#4ca893",
+  CREDIT: "#8fce00",
+  USERNAME: "#3640ff", 
 }
 
 let rarities = {
