@@ -310,7 +310,7 @@ let jokers = [
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_heart10.png",
     rarity: "Legendary"
   },
   {
@@ -462,7 +462,7 @@ let jokers = [
         "TBA!",
         "This X-Playing card is {C:attention}eternal{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_no_mercy.png",
     rarity: "Legendary"
   },
   {
