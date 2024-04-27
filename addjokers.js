@@ -53,7 +53,7 @@ let jokers = [
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/j_hcm_staff_master.png",
+    image_url: "img/j_hcm_spade3.png",
     rarity: "Legendary"
   },
   {
@@ -288,7 +288,7 @@ let jokers = [
         "{C:attention}X-Playing Joker{}.",
         "{C:credit}Idea from{} {C:username}@Coronacht_{}"
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_mun_pheromone_mun.png",
     rarity: "Legendary"
   },
   {
@@ -588,7 +588,7 @@ let jokers = [
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_club6.png",
     rarity: "Legendary"
   },
   {
@@ -690,7 +690,7 @@ let jokers = [
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_clubA.png",
     rarity: "Legendary"
   },
 ]
