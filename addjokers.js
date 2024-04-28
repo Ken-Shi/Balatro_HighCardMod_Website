@@ -569,7 +569,10 @@ let jokers = [
   {
     name: "Wing Wind (WIP)",
     text: [
-        "TBA!",
+        "Your {C:attention}Gold{}, {C:blue}Blue{} and {C:purple}Purple{}",
+        "Seals can all trigger upon",
+        "{C:attention}scoring{}, {C:attention}discard{}",
+        " or {C:attention}held at end of round{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
