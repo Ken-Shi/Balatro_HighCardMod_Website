@@ -567,7 +567,7 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Wing Wind (WIP)",
+    name: "Wing Wind",
     text: [
         "Your {C:attention}Gold{}, {C:blue}Blue{} and {C:purple}Purple{}",
         "Seals can all trigger upon",
