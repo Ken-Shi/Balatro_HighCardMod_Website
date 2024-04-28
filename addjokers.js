@@ -306,9 +306,11 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "10 of Hearts (WIP)",
+    name: "Common Destiny*",
     text: [
-        "TBA!",
+        "If you scoring hand",
+        "contains {C:attention}exactly 5 cards{}, ",
+        "this hand is regarded as {C:attention}Five of A Kind{}. ",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
