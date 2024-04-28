@@ -280,9 +280,12 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Mun Pheromone Mun (WIP)",
+    name: "Mun Pheromone Mun",
     text: [
-        "TBA!",
+        "If you scored {C:attention}High Card{} ",
+        "is lower than 8, increase",
+        "its {C:attention}rank{} by 1; if it's",
+        "higher, decrease it by 1. ",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}.",
