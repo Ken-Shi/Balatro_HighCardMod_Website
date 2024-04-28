@@ -460,9 +460,14 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "No Mercy (WIP)",
+    name: "No Mercy",
     text: [
-        "TBA!",
+        "If you play {C:attention}5 cards{} of",
+        "{C:attention}distinctive ranks{}, this",
+        "card accumulate {C:mult}+9{} mult;",
+        "Otherwise {C:attention}lose all mult{}",
+        "{C:attention}accumulated{} and set your",
+        "{C:blue}hand{} to {C:blue}0{}. ",
         "This X-Playing card is {C:attention}eternal{}."
     ],
     image_url: "img/j_hcm_no_mercy.png",
