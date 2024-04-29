@@ -696,9 +696,13 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Ace of Clubs (WIP)",
+    name: "Life Binder*",
     text: [
-        "TBA!",
+        "If your scoring hand contains {C:attention}exactly 5 cards{}",
+        "and they are of the ",
+        "same {C:attention}enhancement{}, add an ",
+        "{C:clubs}Ace of Clubs{} with that",
+        " enhancement to ur hand.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
