@@ -168,14 +168,16 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Queen of Spades (WIP)",
+    name: "Typhoid Mary*",
     text: [
         "TBA!",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Art inspired by{}",
+        "{C:username}@jasonkangart{}"
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_spadeQ.png",
     rarity: "Legendary"
   },
   {
@@ -602,7 +604,7 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "6 of Clubs (WIP)",
+    name: "Eye of the Storm*",
     text: [
         "TBA!",
         "When round ends, ",
