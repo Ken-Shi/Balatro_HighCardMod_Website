@@ -46,9 +46,13 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "3 of Spades (WIP)",
+    name: "Staff Master*",
     text: [
-        "TBA!",
+        "If you score a {C:attention}Three of{}",
+        "{C:attention}a Kind{} with cards of {C:attention}3{}",
+        "{C:attention}different suits{}, add a ",
+        "card of the {C:attention}missing suit{},",
+        "make it {C:attention}Four of a Kind{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
