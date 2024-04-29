@@ -332,12 +332,16 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Sonic Move (WIP)",
+    name: "Sonic Move",
     text: [
-        "TBA!",
+        "Start a {C:attention}60 second timer{}, ",
+        "{C:red}Lose the game when time{}",
+        "{C:red}up{}. This card gives {X:mult,C:white}X12{}",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Code inspired by{} {C:red}[bobm{}",
+        "{C:red}joker]{}{C:credit} designed by {}{C:username}@Myst{}. "
     ],
     image_url: "img/j_hcm_sonic_move.png",
     rarity: "Legendary"
