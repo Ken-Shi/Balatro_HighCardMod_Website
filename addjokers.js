@@ -542,7 +542,9 @@ let jokers = [
   {
     name: "Dynamic Kinesis (WIP)",
     text: [
-        "TBA!",
+        "If your played hand is",
+        "{C:attention}exactly 1 card{}, retrigger",
+        "this card {C:attention}5 times{}. ",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
