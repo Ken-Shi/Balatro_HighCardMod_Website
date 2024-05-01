@@ -681,14 +681,16 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Queen of Clubs (WIP)",
+    name: "Punker Viper*",
     text: [
         "TBA!",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Art inspired by{}",
+        "{C:username}@marcoitri{}"
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_clubQ.png",
     rarity: "Legendary"
   },
   {
