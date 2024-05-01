@@ -683,7 +683,9 @@ let jokers = [
   {
     name: "Punker Viper*",
     text: [
-        "TBA!",
+        "{C:attention}Shuffle{} all cards played ",
+        "or discarded {C:attention}back to the {}",
+        "{C:attention}deck after you play hand{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}.",
