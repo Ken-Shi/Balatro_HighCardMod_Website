@@ -540,7 +540,7 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Dynamic Kinesis (WIP)",
+    name: "Dynamic Kinesis",
     text: [
         "If your played hand is",
         "{C:attention}exactly 1 card{}, retrigger",
