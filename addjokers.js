@@ -170,7 +170,9 @@ let jokers = [
   {
     name: "Typhoid Mary*",
     text: [
-        "TBA!",
+        "After you play a hand,",
+        "{C:attention}replay{} that hand",
+        "with {X:mult,C:white}X0.5{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}.",
