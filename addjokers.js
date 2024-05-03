@@ -610,7 +610,10 @@ let jokers = [
   {
     name: "Eye of the Storm*",
     text: [
-        "TBA!",
+        "All scoring cards whose",
+        "rank is equal to the",
+        "{C:attention}average scoring rank of this hand{} permanently",
+        " gains {C:chips}+6{} chips.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
