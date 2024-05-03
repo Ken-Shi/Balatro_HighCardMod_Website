@@ -157,14 +157,14 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Jack of Spades (WIP)",
+    name: "Marine Hunter*",
     text: [
         "TBA!",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_spadeJ.png",
     rarity: "Legendary"
   },
   {
