@@ -411,14 +411,16 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "4 of Diamonds (WIP)",
+    name: "Musical Alchemist*",
     text: [
-        "TBA!",
+        "Add a {C:attention}Wildcard 4{} to play",
+        "if you played {C:attention}exactly 4{}",
+        "{C:attention}cards{} and this helps to form {C:attention}Flush{}.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_diamond4.png",
     rarity: "Legendary"
   },
   {
