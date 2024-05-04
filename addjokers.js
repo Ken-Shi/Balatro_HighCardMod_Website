@@ -418,7 +418,8 @@ let jokers = [
         "{C:attention}cards{} and this helps to form {C:attention}Flush{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Idea from{} {C:username}@Coronacht_{}"
     ],
     image_url: "img/j_hcm_diamond4.png",
     rarity: "Legendary"
