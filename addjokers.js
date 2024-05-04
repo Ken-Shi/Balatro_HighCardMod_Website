@@ -159,10 +159,14 @@ let jokers = [
   {
     name: "Marine Hunter*",
     text: [
-        "TBA!",
+        "Scoring your {C:attention}most played hand{} will add the {C:attention}number{}",
+        " {C:attention}of times this hand is {}",
+        "{C:attention}played{} to {C:mult}mult{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "{C:attention}X-Playing Joker{}.",
+        "{C:credit}Art inspired by{}",
+        "{C:username}@Okazu{}"
     ],
     image_url: "img/j_hcm_spadeJ.png",
     rarity: "Legendary"
