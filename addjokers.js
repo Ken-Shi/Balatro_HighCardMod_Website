@@ -656,14 +656,16 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "9 of Clubs (WIP)",
+    name: "Chlorophyll Overgrown*",
     text: [
-        "TBA!",
+        "Any poker hand played is",
+        "considered as played {C:attention}3{}",
+        "times in the {C:attention}record book{}. ",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
     ],
-    image_url: "img/b_xplaying.png",
+    image_url: "img/j_hcm_club9.png",
     rarity: "Legendary"
   },
   {
