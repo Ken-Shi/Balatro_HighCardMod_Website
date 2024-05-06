@@ -307,9 +307,11 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Marvelous Genius (WIP)",
+    name: "Marvelous Genius",
     text: [
-        "TBA!",
+        "If you finish the round",
+        "in {C:blue}1 hand{} after this card",
+        "is added, gain {C:attention}2{} {C:tarot}Tarot{} cards.",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
