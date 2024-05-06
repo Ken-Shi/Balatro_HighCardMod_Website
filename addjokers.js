@@ -525,9 +525,11 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "Balor (WIP)",
+    name: "Balor",
     text: [
-        "TBA!",
+        "Gains a {C:spectral}vision{} that shows",
+        "cards in deck {C:attention}in the{}",
+        "{C:attention}order of which they will be drawn.{}",
         "When round ends, ",
         "transform back to ",
         "{C:attention}X-Playing Joker{}."
