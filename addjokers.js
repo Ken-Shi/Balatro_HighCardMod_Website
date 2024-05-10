@@ -3,8 +3,9 @@ let decks = [
     name: "X-Playing Deck",
     text: [
         "Start run as a {C:red}Player{}",
-        "(i.e. Start with ",
-        "{C:attention}X-Playing{} Joker)"
+        "(i.e. Start with {C:attention}52{}",
+        "{C:attention}X-Playing Cards{} and",
+        "the {C:attention}X-Playing Joker{})"
     ],
     image_url: "img/b_xplaying.png",
     rarity: "Deck"
@@ -12,9 +13,10 @@ let decks = [
   {
     name: "X-Playing Joker",
     text: [
-        "{C:red}PLAY{} {C:attention}first hand{} of round.",
-        "(Transform into the scoring",
-        "X-Playing card or X-hand)"
+        "If {C:attention}first hand{} of round",
+        "is {C:attention}High Card{}, turn that",
+        "into a {C:attention}X-Playing Card{} and",
+        "activate it after scoring.",
     ], 
     image_url: "img/j_hcm_xplay.png",
     rarity: "Legendary"
@@ -40,7 +42,7 @@ let jokers = [
         "and set hand size to {C:attention}6{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_neo_new_nambu.png",
     rarity: "Legendary"
@@ -55,7 +57,7 @@ let jokers = [
         "make it {C:attention}Four of a Kind{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_spade3.png",
     rarity: "Legendary"
@@ -68,7 +70,7 @@ let jokers = [
         "this card gives {X:mult,C:white}X4{} Mult. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_clear_lance.png",
     rarity: "Legendary"
@@ -82,7 +84,7 @@ let jokers = [
         "Mult until end of round. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Idea from{} {C:username}@FC{}"
     ],
     image_url: "img/j_hcm_brain_buster.png",
@@ -96,7 +98,7 @@ let jokers = [
         "in addition to your selected cards for play.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_juggling_gun.png",
     rarity: "Legendary"
@@ -110,7 +112,7 @@ let jokers = [
         "scoring cards afterward.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_interceptor.png",
     rarity: "Legendary"
@@ -125,7 +127,7 @@ let jokers = [
         "destruction gives {C:mult}+5{} Mult. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_all_kaboom.png",
     rarity: "Legendary"
@@ -137,7 +139,7 @@ let jokers = [
         "from played cards.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_bokka.png",
     rarity: "Legendary"
@@ -150,7 +152,7 @@ let jokers = [
         "{C:attention}the scoring stage{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Idea from{} {C:username}@MathIsFun_{}"
     ],
     image_url: "img/j_hcm_honest_straight.png",
@@ -164,7 +166,7 @@ let jokers = [
         "{C:attention}played{} to {C:mult}mult{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Art inspired by{}",
         "{C:username}@Okazu{}"
     ],
@@ -179,7 +181,7 @@ let jokers = [
         "with {X:mult,C:white}X0.5{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Art inspired by{}",
         "{C:username}@jasonkangart{}"
     ],
@@ -189,11 +191,11 @@ let jokers = [
   {
     name: "San Galgano (WIP)",
     text: [
-        "When you play and score",
-        "{C:attention}High Card{}, {C:attention}consume{} the",
-        "scoring card and disable",
-        "its transformation. Gain",
-        "{X:mult,C:white}X1{} per card consumed. ",
+        "When you score any {C:attention}X-Playing Card{} as {C:attention}High Card{},",
+        "{C:red}consume{} the X-Playing",
+        "Card and {C:red}disable{} its transformation from all",
+        "its replicas. Gain {X:mult,C:white}X1{}",
+        " per card consumed. ",
         "{C:red}Warning: This card has a mind of its own!{}"
     ],
     image_url: "img/j_hcm_san_galgano.png",
@@ -207,7 +209,7 @@ let jokers = [
         "but {C:attention}force a card{} for each hand.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_love_and_peace.png",
     rarity: "Legendary"
@@ -220,7 +222,7 @@ let jokers = [
         "helps forming a better poker hand. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_jelly_crawler.png",
     rarity: "Legendary"
@@ -233,7 +235,7 @@ let jokers = [
         "{C:attention}Stone Card{} for {C:attention}2 times{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_rockin_rocks.png",
     rarity: "Legendary"
@@ -246,7 +248,7 @@ let jokers = [
         "scoring for {C:attention}4 times{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_agent_s.png",
     rarity: "Legendary"
@@ -259,7 +261,7 @@ let jokers = [
         "you only play {C:attention}1 hand{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_calories_high.png",
     rarity: "Legendary"
@@ -273,7 +275,7 @@ let jokers = [
         "of the same {C:attention}rank{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_the_zoo.png",
     rarity: "Legendary"
@@ -286,7 +288,7 @@ let jokers = [
         "{C:attention}a random played card{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}."
     ],
     image_url: "img/j_hcm_chameleon.png",
     rarity: "Legendary"
@@ -300,7 +302,7 @@ let jokers = [
         "higher, decrease it by 1. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Idea from{} {C:username}@Coronacht_{}"
     ],
     image_url: "img/j_hcm_mun_pheromone_mun.png",
@@ -314,7 +316,7 @@ let jokers = [
         "is added, gain {C:attention}2{} {C:tarot}Tarot{} cards.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_marvelous_genius.png",
     rarity: "Legendary"
@@ -327,7 +329,7 @@ let jokers = [
         "this hand is regarded as {C:attention}Five of A Kind{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_heart10.png",
     rarity: "Legendary"
@@ -340,7 +342,7 @@ let jokers = [
         "will give a corresponding {C:planet}Planet{} card.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_sky_dancer.png",
     rarity: "Legendary"
@@ -353,7 +355,7 @@ let jokers = [
         "{C:red}up{}. This card gives {X:mult,C:white}X12{}",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Code inspired by{} {C:red}[bobm{}",
         "{C:red}joker]{}{C:credit} designed by {}{C:username}@Myst{}. "
     ],
@@ -365,10 +367,10 @@ let jokers = [
     text: [
         "Destroy all scoring {C:attention}face cards{} and add {C:chips}+10{} chips",
         "and {C:mult}+5{} mult per card to",
-        "{C:attention}both this joker and the playing card of this{}.",
+        "{C:attention}both this joker and the X-Playing Card{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_masculine_parfait.png",
     rarity: "Legendary"
@@ -382,7 +384,7 @@ let jokers = [
         "a {C:attention}higher poker hand{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_faceless.png",
     rarity: "Legendary"
@@ -395,7 +397,7 @@ let jokers = [
         "have contained a {C:attention}Pair{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_love_connection.png",
     rarity: "Legendary"
@@ -407,7 +409,7 @@ let jokers = [
         "into {C:attention}Glass Card{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_marble_rumble.png",
     rarity: "Legendary"
@@ -420,7 +422,7 @@ let jokers = [
         "{C:attention}cards{} and this helps to form {C:attention}Flush{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Idea from{} {C:username}@Coronacht_{}"
     ],
     image_url: "img/j_hcm_diamond4.png",
@@ -435,7 +437,7 @@ let jokers = [
         "played {C:attention}poker hand{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_greatest_man.png",
     rarity: "Legendary"
@@ -448,7 +450,7 @@ let jokers = [
         "this round, {C:attention}-1 Ante{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_13_stairs.png",
     rarity: "Legendary"
@@ -462,7 +464,7 @@ let jokers = [
         "amount to {C:chips}Chips{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_never_no_dollars.png",
     rarity: "Legendary"
@@ -477,7 +479,7 @@ let jokers = [
         "if you have dollars.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_red_labyrinth.png",
     rarity: "Legendary"
@@ -505,7 +507,7 @@ let jokers = [
         "during the scoring stage.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_unlucky_poky.png",
     rarity: "Legendary"
@@ -519,7 +521,7 @@ let jokers = [
         "High Card.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_out_of_five.png",
     rarity: "Legendary"
@@ -532,7 +534,7 @@ let jokers = [
         "{C:attention}order of which they will be drawn.{}",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_balor.png",
     rarity: "Legendary"
@@ -547,7 +549,7 @@ let jokers = [
         "all scoring cards.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_round_and_round.png",
     rarity: "Legendary"
@@ -560,7 +562,7 @@ let jokers = [
         "this card {C:attention}5 times{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_dynamic_kinesis.png",
     rarity: "Legendary"
@@ -573,7 +575,7 @@ let jokers = [
         " when scored.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_metallical_parade.png",
     rarity: "Legendary"
@@ -586,7 +588,7 @@ let jokers = [
         "{C:red}only{} as {C:attention}Straight{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_green_green.png",
     rarity: "Legendary"
@@ -600,7 +602,7 @@ let jokers = [
         " or {C:attention}held at end of round{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_wing_wind.png",
     rarity: "Legendary"
@@ -613,7 +615,7 @@ let jokers = [
         "for this round and {C:attention}destroy{} them.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_g_round.png",
     rarity: "Legendary"
@@ -627,7 +629,7 @@ let jokers = [
         " gains {C:chips}+6{} chips.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_club6.png",
     rarity: "Legendary"
@@ -640,7 +642,7 @@ let jokers = [
         "{C:spectral}Spectral{} card.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_lethal_scoville.png",
     rarity: "Legendary"
@@ -654,7 +656,7 @@ let jokers = [
         " to {C:mult}mult{} instead.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_sinking_shadow.png",
     rarity: "Legendary"
@@ -667,7 +669,7 @@ let jokers = [
         "times in the {C:attention}record book{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_club9.png",
     rarity: "Legendary"
@@ -681,7 +683,7 @@ let jokers = [
         "{C:attention}enhancement{} {C:red}effects){}",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_million_volt.png",
     rarity: "Legendary"
@@ -695,7 +697,7 @@ let jokers = [
         " {C:attention}most played hand{}. ",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_coming_home.png",
     rarity: "Legendary"
@@ -708,7 +710,7 @@ let jokers = [
         "{C:attention}deck after you play hand{}.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}.",
+        "the {C:attention}X-Playing Card{}.",
         "{C:credit}Art inspired by{}",
         "{C:username}@marcoitri{}"
     ],
@@ -739,7 +741,7 @@ let jokers = [
         " enhancement to ur hand.",
         "When round ends, ",
         "transform back to ",
-        "{C:attention}X-Playing Joker{}."
+        "the {C:attention}X-Playing Card{}.",
     ],
     image_url: "img/j_hcm_clubA.png",
     rarity: "Legendary"
