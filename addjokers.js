@@ -189,7 +189,7 @@ let jokers = [
     rarity: "Legendary"
   },
   {
-    name: "San Galgano (WIP)",
+    name: "San Galgano",
     text: [
         "When you score any {C:attention}X-Playing Card{} as {C:attention}High Card{},",
         "{C:red}consume{} the X-Playing",
